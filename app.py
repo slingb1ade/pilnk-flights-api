@@ -39,7 +39,7 @@ def search():
         stops_map = {
             'ANY': MaxStops.ANY,
             'NON_STOP': MaxStops.NON_STOP,
-            'ONE_STOP': MaxStops.ONE_STOP
+            'ONE_STOP': MaxStops.ONE_STOP_OR_FEWER
         }
 
         filters = FlightSearchFilters(
